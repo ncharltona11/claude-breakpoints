@@ -1,0 +1,17 @@
+{
+  "name": "breakpoints",
+  "version": "0.2.0",
+  "description": "Outline long conversations: automatic chapters, breakpoints, jump, recall, fold, search past conversations, export.",
+  "author": {
+    "name": "Nicolas Charlton"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "exportDir": {
+      "type": "string",
+      "title": "Export folder",
+      "description": "Where /bps export writes markdown: relative to the project root, absolute, or under ~/.",
+      "default": "docs/conversations"
+    }
+  }
+}
